@@ -2,8 +2,8 @@ package D13;
 
 
 
-//Êı×é£¬ÕÒ³öÁ¬ĞøµÄÒ»¶Î£¬ÆäºÍ×î´ó
-//Ê¹ÓÃ¶¯Ì¬¹æ»® sum[i]=max(num[i],sum[i-1]+num[i])
+//æ•°ç»„ï¼Œæ‰¾å‡ºè¿ç»­çš„ä¸€æ®µï¼Œå…¶å’Œæœ€å¤§
+//ä½¿ç”¨åŠ¨æ€è§„åˆ’ sum[i]=max(num[i],sum[i-1]+num[i])
 
 public class maxSubArray {
 
@@ -18,7 +18,6 @@ public class maxSubArray {
 	public static int maxArray(int[] a){
 		
 		int len=a.length;
-		int min;
 		int res=0;
 		int[] sum=new int[len];
 		for(int i=1;i<len-1;i++){
